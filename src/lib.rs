@@ -2,7 +2,7 @@
 
 mod day01;
 mod day02;
-// mod day03;
+mod day03;
 // mod day04;
 // mod day05;
 // mod day06;
@@ -69,7 +69,7 @@ impl Solve for Day {
         match self {
             Day::Day01 => day01::solve(input, part),
             Day::Day02 => day02::solve(input, part),
-            Day::Day03 => unimplemented!(), // day03::solve(input, part),
+            Day::Day03 => day03::solve(input, part),
             Day::Day04 => unimplemented!(), // day04::solve(input, part),
             Day::Day05 => unimplemented!(), // day05::solve(input, part),
             Day::Day06 => unimplemented!(), // day06::solve(input, part),
